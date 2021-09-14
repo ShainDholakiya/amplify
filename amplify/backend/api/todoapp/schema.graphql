@@ -1,0 +1,7 @@
+type Todo @model {
+  id: ID!
+  tilte: String!
+  description: String
+  status: String!
+  dueDate: String!
+}
